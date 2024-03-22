@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon-Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+  <!-- Master div for nav bar -->
+  <div class="nav-bar">
+
+    <!-- logo container -->
+    <div class="nav-logo border">  
+      <div class="logo"></div>
+    </div>
+
+    <!-- delivary details container -->
+    <div class="nav-deliver border">
+      <p class="add-up">Deliver to</p>
+
+      <!-- loction icon container -->
+      <div class="nav-location">
+        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+        <p class="add-down">India</p>
+      </div>
+
+    </div>
+
+    <!-- search bar container -->
+    <div class="search-bar">
+      <select class="search-select">
+        <option>All</option>
+        <option>All</option>
+        <option>All</option>
+        <option>All</option>
+      </select>
+      <input placeholder="Search amazon.in" class="search-input">
+
+       <!-- search icon container -->
+       <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+       </div>
+    </div>
+
+     <!--language container -->
+      <div class="language-container border">
+        <i class="fa-regular fa-flag" style="color: #f5f7fa;"></i>
+        <p class="add-font">EN</p>
+      </div>
+
+     <!--account info container -->
+    <div class="sign-in-container border">
+      <p><span>Hello, sign in</span></p>
+      <p class="add-font">Account & Lists</p>
+    </div>
+
+    <!--Return container -->
+    <div class="return-container border">
+      <p><span>Returns</span></p>
+      <p class="add-font">& Orders</p>
+    </div>
+
+     <!--cart container -->
+    <div class="cart-container border">
+      <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+      <p class="add-font">Cart</p>
+    </div>
+
+  <!-- end of nav bar -->
+  </div>
+
+  <!-- pannel -->
+  <div class="pannel">
+
+    <!-- element 1 -->
+    <div class="pannel-element border">
+      <a class="style a-style-1" href="#">
+        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        <p>All</p>
+      </a>
+    </div>
+
+     <!-- element 2 -->
+     <div class="pannel-element border">
+      <a class="style" href="#">
+        <p>Today's Deals</p>
+      </a>
+    </div>
+
+     <!-- element 3 -->
+     <div class="pannel-element border">
+      <a class="style" href="#">
+        <p>Registry</p>
+      </a>
+    </div>
+
+     <!-- element 4 -->
+     <div class="pannel-element border">
+      <a class="style" href="#">
+        <p>Customer Service</p>
+      </a>
+    </div>
+
+     <!-- element 5 -->
+     <div class="pannel-element border">
+      <a class="style" href="#">
+        <p>Gift Cards</p>
+      </a>
+    </div>
+
+     <!-- element 6 -->
+     <div class="pannel-element border">
+      <a class="style" href="#">
+        <p>Sell</p>
+      </a>
+    </div>
+
+    <!-- end of pannel-div -->
+  </div>
+ </header>
+ 
+  <!-- body of the page -->
+  <div class="main-bg">
+    <div class="main-comment">
+      <p>You are on Amazon.com. You can also shop from Amazon India for millions of products with fast local delivery..
+        <a href="https://www.amazon.in"> Click here to visit amazon.in</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- other products -->
+  <div class="demo-product">
+
+    <div class="product">
+      <h2>Health & Personal care</h2>
+      <div class="img place-img1">
+        <style>
+          .place-img1 {background-image: url("images/Personal.jpg");}
+        </style>
+      </div>
+      <p>See more</p>
+    </div>
+
+    <div class="product">
+      <h2>Everyday Essentials</h2>
+      <div class="img place-img2">
+        <style>
+          .place-img2 {background-image: url("images/Every.jpg");}
+        </style>
+      </div>
+      <p>See more</p>  
+    </div>
+
+    <div class="product">
+      <h2>Home Decor</h2>
+      <div class="img place-img3">
+        <style>
+          .place-img3 {background-image: url("images/HomeDecor.jpg");}
+        </style>
+      </div>
+      <p>See more</p>
+    </div>
+
+    <div class="product">
+      <h2>Electronics</h2>
+      <div class="img place-img4">
+        <style>
+          .place-img4 {background-image: url("images/Phone.jpg");}
+        </style>
+      </div>
+      <p>See more</p>
+    </div>
+
+    <div class="product">
+      <h2>Beauty</h2>
+      <div class="img place-img5">
+        <style>
+          .place-img5 {background-image: url("images/Beauty.jpg");}
+        </style>
+      </div>
+      <p>See more</p>
+    </div>
+
+    <div class="product">
+      <h2>Pet Care</h2>
+      <div class="img place-img6">
+        <style>
+          .place-img6 {background-image: url("images/PetCare.jpg");}
+        </style>
+      </div>
+      <p>See more</p>  
+    </div>
+
+    <div class="product">
+      <h2>Toys</h2>
+      <div class="img place-img7">
+        <style>
+          .place-img7 {background-image: url("images/Toys.jpg");}
+        </style>
+      </div>
+      <p>See more</p>
+    </div>
+
+    <div class="product">
+      <h2>Fashion</h2>
+      <div class="img place-img8">
+        <style>
+          .place-img8 {background-image: url("images/Fashion.jpg");}
+        </style>
+      </div>
+      <p>See more</p>
+    </div>
+
+    <div class="product">
+      <h2>Deals in Music Systems</h2>
+      <div class="img place-img9">
+        <style>
+          .place-img9 {background-image: url("images/MusicSystem.jpg");}
+        </style>
+      </div>
+      <p>See more</p>
+    </div>
+
+    <div class="product">
+      <h2>Electronic Essentials</h2>
+      <div class="img place-img10">
+        <style>
+          .place-img10 {background-image: url("images/Laptop.jpg");}
+        </style>
+      </div>
+      <p>See more</p>
+    </div>
+
+    <div class="product">
+      <h2>Furniture</h2>
+      <div class="img place-img11">
+        <style>
+          .place-img11 {background-image: url("images/Furniture.jpg");}
+        </style>
+      </div>
+      <p>See more</p>
+    </div>
+
+    <div class="product">
+      <h2>Home Decor Essentials</h2>
+      <div class="img place-img12">
+        <style>
+          .place-img12 {background-image: url("images/Carpet.jpg");}
+        </style>
+      </div>
+      <p>See more</p>
+    </div>
+   
+  </div>
+
+<!-- footer part -->
+
+  <footer>
+
+    <!-- Back to Top -->
+    <a class="footer-msg" href="#">Back To Top</a>
+
+    <!-- Next large pannel, info -->
+    <div class="footer-pannel">
+
+      <ul class="footer-list">
+        <li class="footer-headings">Get To Know Us</li>
+        <li><a class="footer-font-style" href="#">Careers</a></li>
+        <li><a class="footer-font-style" href="#">Blog</a></li>
+        <li><a class="footer-font-style" href="#">About Amazon</a></li>
+        <li><a class="footer-font-style" href="#">Invester Relation</a></li>
+        <li><a class="footer-font-style" href="#">Amazon Devices</a></li>
+        <li><a class="footer-font-style" href="#">Amazon Science</a></li>
+      </ul>
+
+      <ul class="footer-list">
+        <li class="footer-headings">Make Money With Us</li>
+        <li><a class="footer-font-style" href="#">Sell products on Amazon</a></li>
+        <li><a class="footer-font-style" href="#">Sell on Amazon business</a></li>
+        <li><a class="footer-font-style" href="#">Sell apps on amazon</a></li>
+        <li><a class="footer-font-style" href="#">Become an affiliate</a></li>
+        <li><a class="footer-font-style" href="#">Advertise your product</a></li>
+        <li><a class="footer-font-style" href="#">Host an amazon Hub</a></li>
+      </ul>
+
+      <ul class="footer-list">
+        <li class="footer-headings">Amazon Payment products</li>
+        <li><a class="footer-font-style" href="#">Amazon Business Card</a></li>
+        <li><a class="footer-font-style" href="#">Shop with Points</a></li>
+        <li><a class="footer-font-style" href="#">Reload your balance</a></li>
+        <li><a class="footer-font-style" href="#">Amazon Currency Converter</a></li>
+      </ul>
+
+      <ul class="footer-list">
+        <li class="footer-headings">Let Us Help You</li>
+        <li><a class="footer-font-style" href="#">Covid-19</a></li>
+        <li><a class="footer-font-style" href="#">Your Account</a></li>
+        <li><a class="footer-font-style" href="#">Your Orders</a></li>
+        <li><a class="footer-font-style" href="#">Shipping rates and policies</a></li>
+        <li><a class="footer-font-style" href="#">Returns and replacements</a></li>
+        <li><a class="footer-font-style" href="#">Manage your content and Devices</a>
+        </li>
+        <li><a class="footer-font-style" href="#">Amazon assist</a></li>
+        <li><a class="footer-font-style" href="#">Help</a></li>
+      </ul>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>  
+</body>
+</html>
